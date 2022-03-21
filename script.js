@@ -41,11 +41,11 @@ console.log(summ)
 
 //HW #7
 
-let operation = prompt("Какую операцию вы хотите выполнить?")
+const operation = prompt("Какую операцию вы хотите выполнить?")
 
-let operandFirst = +prompt("Введите первый операнд")
+const operandFirst = +prompt("Введите первый операнд")
 
-let operandSecond = +prompt("Введите второй операнд")
+const operandSecond = +prompt("Введите второй операнд")
 
 let result
 
@@ -62,5 +62,5 @@ if (operation === "+") {
     result = operandFirst / operandSecond
     console.log(operandFirst + " / " + operandSecond + " = " + result)
 } else {
-    console.log('Введен не коректный оператор (операция)')
+    alert('Введен не коректный оператор (операция)')
 }
